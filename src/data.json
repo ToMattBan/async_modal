@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Marcos",
+    "surname": "Antônio",
+    "age": 20,
+    "country": "Brazil",
+    "games": 20,
+    "points": 120
+  },
+  {
+    "name": "Neven",
+    "surname": "Zielesch",
+    "age": 25,
+    "country": "Germany",
+    "games": 12,
+    "points": 65
+  },
+  {
+    "name": "Metodej",
+    "surname": "Pennie",
+    "age": 22,
+    "country": "Austry",
+    "games": 23,
+    "points": 92
+  },
+  {
+    "name": "Farees",
+    "surname": "Lally",
+    "age": 28,
+    "country": "Irland",
+    "games": 28,
+    "points": 80
+  },
+  {
+    "name": "Heinz",
+    "surname": "Selders",
+    "age": 23,
+    "country": "England",
+    "games": 15,
+    "points": 35
+  }
+]
