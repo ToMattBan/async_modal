@@ -1,6 +1,7 @@
 <template>
   <div class="modal" :class="{ active: modalActive }" id="modalDemonstracao">
     <div class="background" @click="fechar"></div>
+
     <div class="modal-container">
       <div class="modal-content">
         <h1>Remover jogador?</h1>
@@ -8,10 +9,10 @@
       </div>
 
       <div class="modal-footer _mla _df">
-        <a class="_c-btn _c-btn--deny _mrxs _mla">Cancelar</a>
-        <a class="_c-btn _c-btn--confirm _mrxs" @click="continuarPromise"
-          >Confirmar</a
-        >
+        <a class="_c-btn _c-btn--deny _mrxs _mla" @click="fechar">Cancelar</a>
+        <a class="_c-btn _c-btn--confirm _mrxs" @click="continuarPromise">
+          Confirmar
+        </a>
       </div>
     </div>
   </div>
